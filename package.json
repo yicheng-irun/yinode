@@ -1,0 +1,30 @@
+{
+  "name": "yinode",
+  "version": "1.0.0",
+  "description": "yinode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yinode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yicheng-irun/yinode.git"
+  },
+  "author": "yicheng-me",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "clean-css": "^3.4.20",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "express": "~4.9.0",
+    "mongoose": "^4.6.3",
+    "morgan": "~1.3.0",
+    "swig": "^1.4.2",
+    "uglify-js": "^2.7.3",
+    "ws": "^1.1.1"
+  }
+}
