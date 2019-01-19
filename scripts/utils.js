@@ -7,8 +7,8 @@ const configs = {
     distRoot: path.resolve(__dirname, '../static/dist'),
     srcRoot: path.resolve(__dirname, '../static/src'),
 
-    devServerPort: 9000, // 在开发模式下，http 静态资源服务监听的端口
-    devNodeServerPort: 9001, // 在开发模式下，后台监听的端口
+    devServerPort: 10000, // 在开发模式下，http 静态资源服务监听的端口
+    devNodeServerPort: 10001, // 在开发模式下，后台监听的端口
 };
 
 function getAllPages () {

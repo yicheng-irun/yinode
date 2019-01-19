@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ncHeader from './comps/nc-header.vue';
+import ncHeader from './comps/header.vue';
 
 export default {
     components: {

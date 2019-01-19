@@ -2,14 +2,15 @@ const path = require('path');
 const nodemon = require('nodemon');
 
 nodemon({
-    script: path.resolve(__dirname, '../server/dev.js'),
+    script: path.resolve(__dirname, '../examples/dev-demo/index.js'),
     ext: 'js',
     env: {
         NODE_ENV: 'development',
         NODE_SERVER_PORT: process.env.NODE_SERVER_PORT || 9000,
     },
     watch: [
-        'server'
+        'main',
+        'examples/dev-demo'
     ],
     // delay: 2500,
 });

@@ -14,7 +14,7 @@ const createYiNode = function () {
 
     };
 
-    modelAdmin.assets = yinode.assets;
+    yinode.modelAdmin.assets = yinode.assets;
 
     return yinode;
 };
