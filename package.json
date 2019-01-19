@@ -19,7 +19,6 @@
   "author": "icheng",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.19.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
