@@ -3,6 +3,8 @@ const Assets = require('./assets/index.js');
 
 const ModelAdmin = require('./model-admin/index.js');
 
+const AdminSite = require('./admin-site/index.js');
+
 // 这里后期默认接收一个express app，然后自动设置assets 路由
 const createYiNode = function () {
 
@@ -12,9 +14,13 @@ const createYiNode = function () {
 
         assets: Assets(),
 
+        adminSite: AdminSite(),
+
     };
 
     yinode.modelAdmin.assets = yinode.assets;
+    yinode.adminSite.assets = yinode.assets;
+    yinode.modelAdmin.adminSite = yinode.adminSite;
 
     return yinode;
 };

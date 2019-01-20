@@ -17,7 +17,7 @@ function Assets () {
  */
 Assets.prototype.setPath = function (publicPath) {
     this.path = publicPath;
-}
+};
 
 function createAssets () {
     return new Assets();

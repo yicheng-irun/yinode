@@ -21,12 +21,6 @@ const chunks = [];
 const htmlWebpackPluginArray = [];
 
 buildPages.forEach((chunk) => {
-    if (isProd) {
-        if (chunk.startsWith('index') || chunk.startsWith('test')) {
-            return;
-        }
-    }
-
     entries[chunk] = `${srcRoot}/pages/${chunk}/index.js`;
     chunks.push(chunk);
 
