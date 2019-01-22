@@ -2,8 +2,10 @@ import Vue from 'vue';
 import App from './app.vue';
 import axios from 'axios';
 
-import vueBeauty from 'vue-beauty';
-Vue.use(vueBeauty);
+import Iview from 'iview';
+Vue.use(Iview);
+
+import 'iview/dist/styles/iview.css';
 
 // import 'vue-beauty/package/style/vue-beauty.min.css';
 // https://fontawesome.com/?from=io
